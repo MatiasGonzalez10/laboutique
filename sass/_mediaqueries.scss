@@ -1,0 +1,41 @@
+/*MOBILE*/
+
+@media only screen and (max-width: 576px) {
+    /*estilos generales*/
+
+header {
+    flex-direction: column
+    
+    
+}
+ .img-logo  {
+    width: 570px;
+    align-items: center;
+ }
+
+ .menu nav {
+    padding: 10px 0px;
+    align-items: center;
+ }
+
+.img-index { 
+    flex-direction: column;
+    align-items: center;
+}
+ p {
+    flex-direction: column;
+    text-align: center;
+ }
+
+
+.img-index {
+    width: 500px;
+}
+
+/*regaleria*/
+
+.regaleria-container {
+    grid-template-columns: none;
+}
+ 
+}
